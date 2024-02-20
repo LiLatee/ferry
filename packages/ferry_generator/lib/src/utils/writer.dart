@@ -29,7 +29,7 @@ Future<void> writeDocument(
   return buildStep.writeAsString(
     outputId,
     '// GENERATED CODE - DO NOT MODIFY BY HAND\n'
-            '// ignore_for_file: type=lint\n\n' +
+            '// ignore_for_file: type=lint, unused_import\n\n' +
         formatted,
   );
 }
